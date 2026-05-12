@@ -1,0 +1,72 @@
+{
+  "title": "Blue Archive Live2D | shiroko_home",
+  "description": "A live2D wallpaper for Blue Archive.",
+  "file": "index.html",
+  "preview": "icon.jpg",
+  "general": {
+    "properties": {
+      "model": {
+        "order": 1,
+        "type": "combo",
+        "text": "Model",
+        "value": "shiroko_home",
+        "options": [
+          {
+            "label": "shiroko_home",
+            "value": "shiroko_home"
+          }
+        ]
+      },
+      "scale": {
+        "order": 2,
+        "type": "slider",
+        "text": "Scale",
+        "min": 0.1,
+        "max": 1.5,
+        "precision": 2,
+        "step": 0.1,
+        "value": 0.8
+      },
+      "play_voice": {
+        "order": 3,
+        "type": "bool",
+        "text": "Play Voice",
+        "value": true
+      },
+      "voice_volume": {
+        "order": 4,
+        "type": "slider",
+        "text": "Voice Volume",
+        "value": 100,
+        "min": 0,
+        "max": 100
+      },
+      "tap_to_talk": {
+        "order": 5,
+        "type": "bool",
+        "text": "Tap to Talk",
+        "value": false
+      },
+      "subtitle": {
+        "order": 6,
+        "type": "combo",
+        "text": "Subtitle",
+        "value": "none",
+        "options": [
+          {
+            "label": "None",
+            "value": "none"
+          },
+          {
+            "label": "JP",
+            "value": "jp"
+          },
+          {
+            "label": "EN",
+            "value": "en"
+          }
+        ]
+      }
+    }
+  }
+}
